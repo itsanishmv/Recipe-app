@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(219, 35, 35);
+  background-color: rgb(235, 35, 35);
+  background-image: url("recupe-background2.jpg");
+  background-blend-mode: multiply;
 }
 .App {
   display: flex;
