@@ -4,7 +4,7 @@ import Loader from 'react-loader-spinner'
 
 const Recipe = ({ title, image, calorie,load ,ingredients}) => {
     const getIngredients = () => {
-        console.log("ingredieints are here my firend")
+        console.log("ingredieints are here my firend");
         
     }
     return (
