@@ -12,7 +12,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FOODRECIPEAPP_B6E75 }}'
-          projectId: foodrecipeapp-b6e75
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_RECIPE_APP_21E36 }}'
+          projectId: recipe-app-21e36
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
