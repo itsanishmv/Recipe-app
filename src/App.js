@@ -26,7 +26,7 @@ const App = () => {
     setRecipes(data.hits)
     }
     getRecipes()
-
+    
     setLoad(false)
     
   }, [query])
@@ -47,7 +47,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="heading">Cook it!!!</h1>
-      
+      <h4>anish</h4>
       <form onSubmit ={getSearch } className ="search-form">
         <input className ="search-input"type="text" onChange ={updateInput} />
         <button  className ="search-button"type ="submit">search</button>
