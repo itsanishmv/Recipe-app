@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "react-scripts build",
+    "public": "./public",
     "ignore": [
       "firebase.json",
       "**/.*",
